@@ -21,57 +21,72 @@
 
 <body>
     <!-- Header -->
-    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
-        <div class="container d-flex justify-content-between align-items-center">
-            <a class="navbar-brand" href="index.html">
-				<img src="assets/img/maro.png" width="200" height="50" alt=""></a>
-           <!-- <a class="navbar-brand h1" href="index.html">
-                <a class="navbar-brand" href="#">
-                    <img src="img/maro.png" width="200" height="50" alt=""></a>
-                <span class="text-dark h4">Purple</span> <span class="text-primary h4">Buzz</span>
-            </a>-->
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <div class=" fixed-top">
 
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
-                <div class="flex-fill mx-xl-5 mb-2">
-                    <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.html">Accuiel</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.html">À propos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.html">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="pricing.html">Nos Packs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
+        <div class="navbar-top ">
+            <div class="container d-flex justify-content-between align-items-center navbar-padding ">
+                <div class="navbar align-self-center d-flex navbar-padding info-contac-top-bar">
+                    <a class="nav-link navbar-padding" href="mailto:Contact@marofiscal.ma"><i class='bx bx-mail-send bx-sm text-primary color_white' ></i> <span class="text-dark h5 color_white">Contact@marofiscal.ma</span></a>
+                    <a class="nav-link navbar-padding" href="mailto:info@marofiscal.ma"><i class='bx bx-mail-send bx-sm text-primary color_white' ></i> <span class="text-dark h5 color_white">info@marofiscal.ma</span></a>
+                    <a class="nav-link navbar-padding" href="tel:+212530-010-257"><i class='bx bxs-phone-call bx-sm text-primary color_white'></i> <span class="text-dark h6 color_white">+212530-010-257</span> </a>
+                    <a class="nav-link navbar-padding" href="tel:+212661-897-882"><i class='bx bxs-phone-call bx-sm text-primary color_white'></i> <span class="text-dark h6 color_white">+212661-897-882</span> </a>
                 </div>
-                <div class="navbar align-self-center d-flex  ">
-                    <a class="nav-link" href="#"><i class='bx bxl-facebook-circle bx-sm text-primary'></i></a>
-                    <a class="nav-link" href="https://www.linkedin.com/in/soci%C3%A9t%C3%A9-marofiscal-sarl-69786b191/?trk=public-profile-join-page"><i class='bx bxl-linkedin-square bx-sm text-primary' ></i></a>
-                    <a class="nav-link" href="#"><i class='bx bxl-instagram-alt bx-sm text-primary' ></i></a>
+                 <div class="navbar align-self-center d-flex navbar-padding icon-soscial-top-bar">
+                    <a class="nav-link navbar-padding" href="#"><i class='bx bxl-instagram-alt bx-sm text-primary color_white' ></i></a>
+                    <a class="nav-link navbar-padding" href="#"><i class='bx bxl-facebook-circle bx-sm text-primary color_white'></i></a>
+                    <a class="nav-link navbar-padding" href="#"><i class='bx bxl-whatsapp bx-sm text-primary color_white'></i></a>
+                    <a class="nav-link navbar-padding" href="https://www.linkedin.com/in/soci%C3%A9t%C3%A9-marofiscal-sarl-69786b191/?trk=public-profile-join-page"><i class='bx bxl-linkedin-square bx-sm text-primary color_white' ></i></a>
                 </div>
-            <!--
-                <div>
-                    <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4 " href="#" role="button">Rendez-Vous</a>
-                </div>
-            -->
             </div>
+           
         </div>
-    </nav>
+    
+        <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light bg-white shadow ">
+            <div class="container d-flex justify-content-between align-items-center"><a class="navbar-brand" href="index.html">
+                    <img src="assets/img/logo-original2.png" width="200" height="50" alt=""></a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
+                    <div class="flex-fill mx-xl-5 mb-2">
+                        <ul class="nav navbar-nav d-flex mx-xl-5 text-center text-dark">
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.html">Accueil</a>
+                            </li>
+                            <li class="nav-item main-menu">
+                                <a class="nav-link btn-outline-primary rounded-pill px-3 bx bxs-down-arrow" href="work.html">Services</a>
+                                <ul class="sub_nav_menu">
+                                    <li><a href="Les services/Création-dentreprise.html">Création d'entreprise</a></li>
+                                    <li><a href="Les services/Domiciliation.html">Domiciliation</a></li>
+                                    <li><a href="Les services/tenue-de-comtapilte.html">Tenue de comptabilité</a></li>
+                                    <li><a href="Les services/Déclarations-fiscales.html">Déclarations fiscales</a></li>
+                                    <li><a href="Les services/Soulutions-informatiques.html">Solutions informatiques</a></li>
+                                    <li><a href="Les services/Traitement_de_la_Paie.html">Traitement de la Paie</a></li>
+                                    <li><a href="Les services/formation.html">Formation </a></li>
+                                    <li><a href="Les services/autre.html">Autre </a></li>
+                                  </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-primary rounded-pill px-3" href="pricing.html">Nos Packs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-primary rounded-pill px-3" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div  class="Rendez-Vous"><a href="rendez-vous.html" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2">Rendez-Vous</a></div>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+    
     <!-- Close Header -->
 
 
     <!-- Start Banner Hero -->
-    <div class="banner-wrapper bg-light">
+    <div class="banner-wrapper bg-light services-index">
         <div id="index_banner" class="banner-vertical-center-index container-fluid pt-5">
 
             <!-- Start slider -->
@@ -84,55 +99,37 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
 
-                        <div class="py-5 row d-flex align-items-center">
-                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5 bg-centenit-slide">
-                                <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line">
-                                    UN <strong>ACCOMPAGNEMENT </strong>  
-                                  <br>COMPLET
-                              </h1>
-                                <p class="banner-body text-muted py-3 mx-0 px-0">
-                                    <strong>
-                                         Elle consiste en un accompagnement complet allant de l’étude d’opportunité et de faisabilité de votre projet jusqu’à sa réalisation.
-                                    </strong>
-                              </p>
-                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Commencer</a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="carousel-item">
-
-                        <div class="py-5 row d-flex align-items-center">
-                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5 bg-centenit-slide">
-                                <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-3 mx-0 px-0 light-300">
-                                    VOTRE ENTREPRISE CLÉ EN MAIN
+                        <div class="py-5 row d-flex align-items-center posistion-text-slider">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-2 bg-centenit-slide">
+                                <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-1 mx-0 px-0 light-300 text-light slider-text-1 typo-space-line-slider">
+                                    CRÉATION D'ENTREPRISE
                                 </h1>
-                                <p class="banner-body text-muted py-3">
-                                    <strong>
-                                            L’AMDE se charge de toutes les formalités de constitution de votre société vous permettant une optimisation de votre temps ainsi que le concours d’une équipe d’experts pour répondre à toutes vos doléances avec l’efficacité exigée.
-                                    </strong>
-                                </p>
-                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Commencer</a>
+                                <div class="text-slider">
+                                        <ul class="list-text-slider">
+                                        <li class="d-flex text-white"><i class="bx bx-check-circle me-2"></i>Cin /passeport pour les étrangers</li>
+                                        <li class="d-flex text-white"><i class="bx bx-check-circle me-2"></i>Contrat bail</li>
+                                        <li class="d-flex text-white "><i class="bx bx-check-circle me-2"></i>3 dénominations social</li>
+                                        <li class="d-flex text-white "><i class="bx bx-check-circle me-2"></i>Diplôme ou autorisation si l’activité est réglementé</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-
+    
                     </div>
-                    <div class="carousel-item">
 
-                        <div class="py-5 row d-flex align-items-center">
-                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5 bg-centenit-slide">
-                                <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-3 mx-0 px-0 light-300">
-                                    <strong>CRÉATION  </strong> D'ENTREPRISE
+                    <div class="carousel-item ">
+                        <div class="py-5 row d-flex align-items-center posistion-text-slider">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-2 bg-centenit-slide">
+                                <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-1 mx-0 px-0 light-300 text-light typo-space-line-slider slider-text-3">
+                                    CONSEILS JURIDIQUE TOUJOURS GRATUIT
                                 </h1>
-                                <p class="banner-body text-muted py-3">
-                                   <strong>
-                                       Vous avez un projet et vous souhaitez le concrétiser par la création d’une société au Maroc ?VOTRE ENTREPRISE CLÉ EN MAINL’AMDE se charge de toutes les formalités de constitution de votre société vous permettant une optimisation de votre temps ainsi que le concours d’une équipe d’experts pour répondre à toutes vos doléances avec l’efficacité exigée.
-                                    </strong> </p>
-                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Commencer</a>
+                                <div class="text-slider">
+                                </div>
                             </div>
                         </div>
 
                     </div>
+                    
                 </div>
                 <a class="carousel-control-prev text-decoration-none" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
                     <i class='bx bx-chevron-left'></i>
@@ -144,16 +141,29 @@
                 </a>
             </div>
             <!-- End slider -->
-
         </div>
     </div>
     <!-- End Banner Hero -->
 
-
+    <!-- star offer -->
+    <div class="bar-offer">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h2 class=" Looping-Animation-of-text-color">Créer votre entreprise à partir de 800,00 Dirhams !!</h2>
+                </div>                
+            </div>
+        </div>        
+    </div> 
+    <!-- end offer -->
 
     <!-- Start Service -->
     <section class="service-wrapper py-3">
         
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" class="tm-section-down-arrow">
+            <polygon fill="#b00000c7" points="0,0  100,0  50,60"></polygon>                   
+        </svg>
+        <div  class="Rendez-Vous TARIFS-COMMANDE"><a href="pricing.html"  class="btn btn-primary rounded-pill btn-block shadow px-4 py-2">TARIFS & COMMANDE</a></div>
 
         <div class="service-tag py-5 bg-secondary">
             <div class="container-fluid pb-3 color_white ">
@@ -161,37 +171,11 @@
                     <h2 class="h2 text-center col-12 py-5 semi-bold-600 ">Services</h2>
                     <div class="service-header col-2 col-lg-3 text-end light-300">
                         <i class='bx bx-buildings h3 mt-1'></i>
-                        
                     </div>
                     <div class="service-heading col-10 col-lg-9 text-start float-end light-300">
-                        <h2 class="h3 pb-4 typo-space-line">Un Accompagnement Personnalisé Pour L'avancement De Votre Activité</h2>
+                        <h2 class="h3 pb-4 typo-space-line">L’externalisation comptable au service de la gestion d’entreprise</h2>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-12">
-                <ul class="nav d-flex justify-content-center">
-                    <li class="nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary active shadow rounded-pill text-light px-4 light-300" href="#" data-filter=".project">LES Services</a>
-                    </li>
-                    <li class="nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".Création">Création d'entreprise</a>
-                    </li>
-                    <li class="filter-btn nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".Domiciliation">Domiciliation</a>
-                    </li>
-                    <li class="nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".Tenue_de_comptabilite">Tenue de comptabilité</a>
-                    </li>
-                    <li class="nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".Declarations_fiscales"> Déclarations fiscales</a>
-                    </li>
-                    <li class="nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".Traitement_de_la_Paie">Traitement de la Paie</a>
-                    </li>
-                    <li class="nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".Et_bien_plus_encore">Et bien plus encore !</a>
-                    </li>
-                </ul>
             </div>
         </div>
 
@@ -201,78 +185,104 @@
         <div class="row gx-5 gx-sm-3 gx-lg-5 gy-lg-5 gy-3 pb-3 projects ">
 
             <!-- Start Recent Work -->
-            <div class="col-xl-3 col-md-4 col-sm-6 project Création ">
+            <div class="col-xl-3 col-md-4 col-sm-6 project  ">
                 <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
                     <img class="service card-img" src="./assets/img/services-01.jpg" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
                             <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Création d'entreprise</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                            
                         </div>
                     </div>
                 </a>
             </div><!-- End Recent Work -->
 
             <!-- Start Recent Work -->
-            <div class="col-xl-3 col-md-4 col-sm-6 project Domiciliation ">
+            <div class="col-xl-3 col-md-4 col-sm-6 project  ">
                 <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
                     <img class="card-img" src="./assets/img/services-02.jpg" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
                             <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Domiciliation</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                            
                         </div>
                     </div>
                 </a>
             </div><!-- End Recent Work -->
 
             <!-- Start Recent Work -->
-            <div class="col-xl-3 col-md-4 col-sm-6 project Tenue_de_comptabilite ">
+            <div class="col-xl-3 col-md-4 col-sm-6 project ">
                 <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
                     <img class="card-img" src="./assets/img/services-03.jpg" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
                             <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Tenue de comptabilité</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                            
                         </div>
                     </div>
                 </a>
             </div><!-- End Recent Work -->
 
             <!-- Start Recent Work -->
-            <div class="col-xl-3 col-md-4 col-sm-6 project Declarations_fiscales">
+            <div class="col-xl-3 col-md-4 col-sm-6 project">
                 <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
                     <img class="card-img" src="./assets/img/services-05.jpg" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
                             <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Déclarations fiscales</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                            
                         </div>
                     </div>
                 </a>
             </div><!-- End Recent Work -->
 
             <!-- Start Recent Work -->
-            <div class="col-xl-3 col-md-4 col-sm-6 project Traitement_de_la_Paie">
+            <div class="col-xl-3 col-md-4 col-sm-6 project ">
                 <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
                     <img class="card-img" src="./assets/img/services-06.jpg" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
                             <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Traitement de la Paie</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                            
                         </div>
                     </div>
                 </a>
             </div><!-- End Recent Work -->
 
             <!-- Start Recent Work -->
-            <div class="col-xl-3 col-md-4 col-sm-6 project project Et_bien_plus_encore">
+            <div class="col-xl-3 col-md-4 col-sm-6 project project ">
                 <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
                     <img class="card-img" src="./assets/img/services-07.jpg" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
-                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Et bien plus encore !</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">formation </span>
+                            
+                        </div>
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project project ">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="./assets/img/services-07.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Solutions informatiques </span>
+                            
+                        </div>
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project project ">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="./assets/img/services-07.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Autre</span>
+                            
                         </div>
                     </div>
                 </a>
@@ -306,18 +316,19 @@
     </section>
     <!-- End View Work -->
 
-    <!-- Start Recent Work -->
+
+    <!-- Start our clenit -->
     <section class="py-5 mb-5">
         <div class="container">
             <div class="recent-work-header row text-center pb-5">
-                <h2 class="col-md-6 m-auto h2 semi-bold-600 py-5">Nos Clients</h2>
+                <h2 class="col-md-6 m-auto h2 semi-bold-600 py-5">Nos Partenaires</h2>
             </div>
             <div class="row gy-5 g-lg-5 mb-4">
 
                 <!-- Start Recent Work -->
                 <div class="col-md-2 mb-3">
                     <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-01.jpg" alt="Card image">
+                        <img class="recent-work-img card-img" src="./assets/img/cnss copie-01.svg" alt="Card image">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark"></div>
                         </div>
@@ -327,7 +338,7 @@
                 <!-- Start Recent Work -->
                 <div class="col-md-2 mb-3">
                     <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-02.jpg" alt="Card image">
+                        <img class="recent-work-img card-img" src="./assets/img/cnss copie-04.svg" alt="Card image">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark"></div>
                         </div>
@@ -337,7 +348,18 @@
                 <!-- Start Recent Work -->
                 <div class="col-md-2 mb-3">
                     <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-03.jpg" alt="Card image">
+                        <img class="recent-work-img card-img" src="./assets/img/jarkotay.svg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-3 ml-3 text-dark"></div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                
+                <!-- Start Recent Work -->
+                <div class="col-md-2 mb-3">
+                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="./assets/img/cnss copie-02.svg" alt="Card image">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark"></div>
                         </div>
@@ -347,7 +369,7 @@
                 <!-- Start Recent Work -->
                 <div class="col-md-2 mb-3">
                     <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-04.jpg" alt="Card image">
+                        <img class="recent-work-img card-img" src="./assets/img/cnss copie-06.svg" alt="Card image">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark"></div>
                         </div>
@@ -357,86 +379,17 @@
                 <!-- Start Recent Work -->
                 <div class="col-md-2 mb-3">
                     <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-05.jpg" alt="Card image">
+                        <img class="recent-work-img card-img" src="./assets/img/cnss copie-05.svg" alt="Card image">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark"></div>
                         </div>
                     </a>
                 </div><!-- End Recent Work -->
-
-                <!-- Start Recent Work -->
-                <div class="col-md-2 mb-3">
-                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-06.jpg" alt="Card image">
-                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                            <div class="recent-work-content text-start mb-3 ml-3 text-dark"></div>
-                        </div>
-                    </a>
-                </div><!-- End Recent Work -->
-
-                <!-- Start Recent Work -->
-                <div class="col-md-2 mb-3">
-                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-06.jpg" alt="Card image">
-                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                            <div class="recent-work-content text-start mb-3 ml-3 text-dark"></div>
-                        </div>
-                    </a>
-                </div><!-- End Recent Work -->
-
-                <!-- Start Recent Work -->
-                <div class="col-md-2 mb-3">
-                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-06.jpg" alt="Card image">
-                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end"></div>
-                    </a>
-                </div><!-- End Recent Work -->
-
-                <!-- Start Recent Work -->
-                <div class="col-md-2 mb-3">
-                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-01.jpg" alt="Card image">
-                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                            <div class="recent-work-content text-start mb-3 ml-3 text-dark"></div>
-                        </div>
-                    </a>
-                </div><!-- End Recent Work -->
-
-                <!-- Start Recent Work -->
-                <div class="col-md-2 mb-3">
-                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-02.jpg" alt="Card image">
-                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                            <div class="recent-work-content text-start mb-3 ml-3 text-dark"></div>
-                        </div>
-                    </a>
-                </div><!-- End Recent Work -->
-
-                <!-- Start Recent Work -->
-                <div class="col-md-2 mb-3">
-                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-03.jpg" alt="Card image">
-                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                            <div class="recent-work-content text-start mb-3 ml-3 text-dark"></div>
-                        </div>
-                    </a>
-                </div><!-- End Recent Work -->
-
-                <!-- Start Recent Work -->
-                <div class="col-md-2 mb-3">
-                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-04.jpg" alt="Card image">
-                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                            <div class="recent-work-content text-start mb-3 ml-3 text-dark"></div>
-                        </div>
-                    </a>
-                </div><!-- End Recent Work -->
-
 
             </div>
         </div>
     </section>
-    <!-- End Recent Work -->
+    <!-- End our clenit -->
 
 
 
@@ -447,10 +400,10 @@
 
                 <div class="col-lg-3 col-12 align-left">
                     <a class="navbar-brand" href="index.html">
-                        <img src="assets/img/maro.png" width="200" height="50" alt=""></a>
+                        <img src="assets/img/logo-black-blue.png" width="200" height="50" alt=""></a>
                     <p class="text-light my-lg-4 my-2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incididunt ut.
+                        société MAROFISCAL SARL
+                        comptable Agréé par l'Etat
                     </p>
                     <ul class="list-inline footer-icons light-300">
                         <li class="list-inline-item m-0">
@@ -459,7 +412,7 @@
                             </a>
                         </li>
                         <li class="list-inline-item m-0">
-                            <a class="text-light" target="_blank" href="https://www.linkedin.com/">
+                            <a class="text-light" target="_blank" href="https://www.linkedin.com/in/soci%C3%A9t%C3%A9-marofiscal-sarl-69786b191/?trk=public-profile-join-page">
                                 <i class='bx bxl-linkedin-square bx-md'></i>
                             </a>
                         </li>
@@ -473,55 +426,32 @@
                                 <i class='bx bxl-instagram-alt bx-md' ></i>
                             </a>
                         </li>
-                        <li class="list-inline-item m-0">
-                            <a class="text-light" target="_blank" href="https://www.youtube.com/">
-                                <i class='bx bxl-youtube bx-md'></i>
-                            </a>
-                        </li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
-                    <h3 class="h4 pb-lg-3 text-light light-300">Notre compagnie</h2>
-                        <ul class="list-unstyled text-light light-300">
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.html">Accuiel</a>
-                            </li>
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about.html">À propos de nous</a>
-                            </li>
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.html">Service</a>
-                            </li>
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1" href="pricing.html">Nos Packs</a>
-                            </li>
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
-                    <h2 class="h4 pb-lg-3 text-light light-300">LES Services</h2>
+                    <h2 class="h4 pb-lg-3 text-light light-300">Les Services</h2>
                     <ul class="list-unstyled text-light light-300">
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Création d'entreprise</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="Les services/Création-dentreprise.html">Création d'entreprise</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Domiciliation</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="Les services/Domiciliation.html">Domiciliation</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Tenue de comptabilité</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="Les services/tenue-de-comtapilte.html">Tenue de comptabilité</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Déclarations fiscales</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="Les services/Déclarations-fiscales.html">Déclarations fiscales</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Traitement de la Paie</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="Les services/formation.html">formation </a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Et bien plus encore !</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Traitement de la Paie </a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="Les services/Soulutions-informatiques.html">Solutions informatiques</a>
                         </li>
                     </ul>
                 </div>
@@ -530,34 +460,35 @@
                     <h2 class="h4 pb-lg-3 text-light light-300">Pour Le Client</h2>
                     <ul class="list-unstyled text-light light-300">
                         <li class="pb-2">
-                            <i class='bx-fw bx bx-phone bx-xs '></i><a class="text-decoration-none text-light py-1" href="tel:066-189-7882">066-189-7882</a>
+                            <i class='bx-fw bx bx-phone bx-xs '></i><a class="text-decoration-none text-light py-1" href="tel:+212530-010-257">+212530-010-257</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1" href="mailto:info@gmail.com">info@gmail.com</a>
+                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1" href="mailto:Contact@marofiscal.ma">Contact@marofiscal.ma</a>
                         </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1" href="mailto:info@marofiscal.ma">info@marofiscal.ma</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx bx-map bx-xs' ></i><a class="text-decoration-none text-light py-1" href="mailto:Compta.marofiscal@gmail.com"> Av. My. EL Hassan 1 Residence <br> Aiboudi 4eme etage Appt. <br> N 26 Temara</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 me-auto col-12">
+                    <h5 class="h4 pb-lg-3 text-light light-300">Horaires d'ouvertures</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex"> Lundi    :       09:00 - 17:00 </li>
+                        <li class="list-group-item d-flex"> Mardi    :       09:00 - 17:00 </li>
+                        <li class="list-group-item d-flex"> Mercredi :       09:00 - 17:00 </li>
+                        <li class="list-group-item d-flex"> Jeudi    :       09:00 - 17:00 </li>
+                        <li class="list-group-item d-flex"> Vendredi :       09:00 - 12:00 | 14:00 - 17:00 </li>
+                        <li class="list-group-item d-flex"> Samedi   :       Ferme</li>
+                        <li class="list-group-item d-flex"> Dimanche :       Ferme</li>
                     </ul>
                 </div>
 
             </div>
         </div>
-
-        <div class="w-100 bg-primary py-3">
-            <div class="container">
-                <div class="row pt-2">
-                    <div class="col-lg-6 col-sm-12">
-                        <p class="text-lg-start text-center text-light light-300">
-                            © Copyright 2021 Purple Buzz Company. All Rights Reserved.
-                        </p>
-                    </div>
-                    <div class="col-lg-6 col-sm-12">
-                        <p class="text-lg-end text-center text-light light-300">
-                            Designed by <a rel="sponsored" class="text-decoration-none text-light" href="#" target="_blank"><strong>JRIFI</strong></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </footer>
     <!-- End Footer -->
 

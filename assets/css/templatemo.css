@@ -1,9 +1,4 @@
 /*
-
-TemplateMo 561 Purple Buzz
-
-https://templatemo.com/tm-561-purple-buzz
-
 ---------------------------------------------
 Table of contents
 ------------------------------------------------
@@ -15,6 +10,7 @@ Table of contents
 6. Single Work
 7. Pricing
 8. Contact
+9. rendez-Vous
 --------------------------------------------- */
 
 html {font-family: 'Open Sans', sans-serif;}
@@ -67,7 +63,7 @@ p, a {font-weight: 400;}
   font-size: 4em;
 }
 #index_banner .carousel-inner {
-  height: 80vh;
+  height: 90%;
 }
 #index_banner .carousel-indicators li,
 #index_banner .carousel-indicators.active {
@@ -101,7 +97,7 @@ p, a {font-weight: 400;}
 }
 .recent-work .recent-work-vertical {
 	background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 33.333%, rgba(97,84,199,1) 66.666%, rgba(255,255,255,0) 99.999%);
+  background: linear-gradient(0deg, rgb(255 255 255 / 0%) 0%, rgba(255,255,255,0) 33.333%, rgb(49 107 66) 66.666%, rgba(255,255,255,0) 99.999%);
   background-size: 300% 300%;
   background-position: 0% 100%;
   transition: .5s;
@@ -122,21 +118,174 @@ p, a {font-weight: 400;}
 }
 /***/
 .bg-centenit-slide {
-  margin: auto!important;
- /* margin-top: 23rem !important; */
-  background: white;
-  opacity: 75%;
+
+  background: #3b6949a1;
+  opacity: 98%;
   border-radius: 7px;
   box-shadow: 1px 1px 12px 1px;
+  width: 100%;
+}
+.typo-space-line-slider::after{
+  content: "";
+    width: 250px;
+    display: block;
+    position: absolute;
+    border-bottom: 5px solid #dc3545;
+    margin-top: -8px;
+}
+.text-slider {
+  color: white;
+  box-shadow: white 0px 0px 2px 0px;
+  border-radius: 2px;
+}
+ul.list-text-slider {
+  list-style: none;
+  padding: 4px;
 }
 .color_white {
   color: #f6f9fe !important;
 }
+.navbar-top {
+  background-color: #316b42;
+}
+.navbar-padding {
+  padding: 2px 9px !important;
+}
+div#index_banner {
+  height: 40rem !important;
+}
+div#carouselExampleIndicators {
+  height: 38rem;
+}
+.posistion-text-slider {
+  position: absolute;
+  top: 13em !important;
+  left: 8em;
+}
+.Looping-Animation-of-text-color{
+    animation: color-change 1.5s infinite;
+}
+@keyframes color-change {
+    50% { color: rgb(250, 243, 39); }
+    100% { color: rgb(255, 255, 255); }
+    
+  }
+  @media (min-width: 968px){
+    .slider-text-3 {
+      font-size: 3rem;
+    }
+    .slider-text-1{
+      font-size: 3rem;
+    }
+  }
+  .services-index{
+    margin-bottom: 0px !important;
+  }
+@media (max-width: 768px){
+  .icon-soscial-top-bar{
+    display: none !important;
+  }
+  .navbar-padding {
+    padding: 0px 5px !important;
+    font-size: smaller;
+}
+  .mb-3 {
+    width: 50%;
+  }
+  .posistion-text-slider {
+    position: absolute;
+    top: 9em !important;
+    left: -1em;
+    width: 117%;
+}
+}
+.Rendez-Vous {
+  text-align: center;
+}
+h1.banner-heading.h1.text-secondary.display-3.mb-0.pb-1.mx-0.px-0.light-300.text-light.typo-space-line-slider.slider-text-3::after {
+  padding-top: 11px;
+}
+.bxs-down-arrow:after {
+    font-size: 14px;
+    padding-left: 6px;
+    content: "\ece5";
+}
+.bxs-down-arrow:before{
+  display: none;
+}
+
 /*
 .Création,.Domiciliation,.Tenue_de_comptabilite,.Declarations_fiscales,.Traitement_de_la_Paie,.Et_bien_plus_encore {
   position: relative !important ;
   margin: auto ;
 }
+*/
+/*** sub nav menu **/
+li.nav-item.main-menu:hover ul.sub_nav_menu {
+    display: block;
+}
+ul.sub_nav_menu li {
+  padding-right: 15px;
+}
+ul.sub_nav_menu {
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  z-index: 1;
+  padding: 0;
+  text-align: initial;
+  list-style: none;
+  display: none;
+}
+ul.sub_nav_menu a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+}
+ul.sub_nav_menu li:hover {
+  background-color: #ddd;
+}
+
+/* bar offer */
+.bar-offer {
+  background-color: #b00000c7;
+  padding-top: 22px;
+}
+.btn-baroffer-bordered {
+  display: inline-block;
+  padding: 10px 25px;
+  border: 2px solid white;
+  background: #363b3f;
+  text-transform: uppercase;
+  text-decoration: auto;
+}
+.tm-section-down-arrow {
+  width: 100%;
+  height: 100px;
+}
+section.service-wrapper.py-3 {
+  padding-top: 0 !important;
+}
+ul li.list-group-item.d-flex{
+  padding: 2px 14px;
+}
+div ul.list-group.list-group-flush {
+  border-radius: 4px;
+}
+section.container.overflow-hidden.py-5 {
+  margin-bottom: 15px;
+}
+.TARIFS-COMMANDE{
+  padding-bottom: 6px;
+  margin-top: -26px;
+}
+
+h2.Looping-Animation-of-text-color {
+  font-size: 3rem;
+}
+/****************************************/
 /* About */
 #work_banner {
   background-image: url('./../img/banner-bg-02.jpg');
@@ -161,9 +310,9 @@ p, a {font-weight: 400;}
 }
 .why-us {
   background: rgb(239,239,253);
-  background: -moz-linear-gradient(0deg, rgba(239,239,253,1) 50%, rgba(255,255,255,1) 50%);
-  background: -webkit-linear-gradient(0deg, rgba(239,239,253,1) 50%, rgba(255,255,255,1) 50%);
-  background: linear-gradient(0deg, rgba(239,239,253,1) 50%, rgba(255,255,255,1) 50%);
+  background: -moz-linear-gradient(0deg, rgba(239,239,253,1) 50%, rgba(255,255,255,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(239,239,253,1) 50%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(0deg, rgba(239,239,253,1) 50%, rgba(255,255,255,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#efeffd",endColorstr="#ffffff",GradientType=1);
 }
 .team-member-img {
@@ -171,6 +320,10 @@ p, a {font-weight: 400;}
 }
 .team-member:hover .team-member-img {
   padding: 10px !important;
+}
+/**/
+.col-lg-6 img {
+  border-radius: 4px;
 }
 
 /* Work */
@@ -198,6 +351,47 @@ p, a {font-weight: 400;}
 .pricing-horizontal {
   border-radius: 15px !important;
 }
+div img.pricing-table-icon {
+  width: 50px;
+}
+.list-pack-standard {
+  padding: 62px 0;
+}
+/***/
+@media (min-width: 768px) { 
+  .height-pricing1{
+    padding-top: 12rem!important;
+  }
+  .height-pricing2{
+    padding-top: 6.5rem!important;
+  }
+  .height-pricing3{
+    padding-top: 2rem!important;
+  }
+  .height-pricing4{
+    padding-top: 0em!important;
+  }
+}
+.bar-offer-nospack {
+  background: #a12015 !important;
+  padding: 0 6px;
+}
+.btn-color-green {
+  color: #fff;
+  background: #316b42 !important;
+  border-color: #1e3524;
+}
+.btn-color-green:hover {
+  color: white;
+  background: #0f5132 !important;
+}
+h1.h2.typo-space-line::after {
+  padding: 0 !important;
+}
+button.btn.rounded-pill.btn-secondary.text-light.px-4.light-300.btn.btn-primary a {
+  color: white;
+  text-decoration: auto;
+}
 /* Contact */
 #floatingtextarea {
   height: 150px
@@ -207,3 +401,135 @@ footer a.text-light:hover {
   color: #bfbfbf !important;
   transition-duration: 0.15s;
 }
+@media (max-width: 768px){
+  footer.bg-secondary.pt-4 {
+    text-align: center!important;
+}
+}
+
+/* rendez-Vous */
+#regForm {
+  background: #eaeaea;
+  margin: 100px auto;
+  font-family: Raleway;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+input ,select {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+#prevBtn {
+  background-color: #bbbbbb;
+}
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #316b42;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+    background-color: #ffdddd;
+}
+.step.active {
+  opacity: 1;
+}
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #316b42;
+}
+
+/***************************star agenda ************************************/
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
+/***************************end agenda ************************************/
