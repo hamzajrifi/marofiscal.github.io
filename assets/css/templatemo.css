@@ -375,6 +375,8 @@ div img.pricing-table-icon {
 .bar-offer-nospack {
   background: #a12015 !important;
   padding: 0 6px;
+  margin: auto !important;
+    width: 70%;
 }
 .btn-color-green {
   color: #fff;
