@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id="infoPackDiv">
+            <form id="infoPackForm"  target="_blank" action="https://formsubmit.co/abdelali.enn38@gmail.com" method="POST">
+                <input id="firstName" name="first Name" type="text" placeholder="First name">
+				<input type="hidden" name="_captcha" value="false">
+				<input type="hidden" name="_next" value="http://127.0.0.1:5501/thankYou.html"> <!-- here on value you should to write http(s)://yourdomain.co/thankYou.html-->
+                <input id="lastName" name="lasr name" type="text" placeholder="Last name">
+                <input id="emailAddress" name="email address" type="email" placeholder="Email address">
+                <input id="phoneNumber" name="phone number" type="text" placeholder="Phone number">
+				<input id="buttonSubmitInfoPack" name="button submit info pack" type="submit" value="Submit">
+                <!-- <script>
+                    var btn = document.getElementById("buttonSubmitInfoPack");
+                    var obj = [];
+                    function    getData() {
+                        var data = {};
+						data.firstName = document.getElementById("firstName").value;
+						data.lastName = document.getElementById("lastName").value;
+						data.emailAdress = document.getElementById("emailAddress").value;
+						data.phoneNumber = document.getElementById("phoneNumber").value;
+						//btn.push(data);
+						console.log(data);
+                    }
+					btn.addEventListener("click", getData);
+                </script> -->
+            </form>
+        </div>
+    </body>
+</html>

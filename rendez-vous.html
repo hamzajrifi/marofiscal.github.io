@@ -104,9 +104,11 @@
 
     <!-- star wizard -->
 
-    <form id="regForm" action="/action_page.php">
+    <form id="regForm" target="_blank" action="https://formsubmit.co/hero.coloneel@gmail.com" method="POST">
 
         <!-- One "tab" for each step in the form: -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="http://linashop.me/linashop/thankYou.html"> <!-- here on value you should to write http(s)://yourdomain.co/thankYou.html-->
         <div class="tab">
             <h1> Choix de la prestation:</h1>
             <label for="Nature-du-rendez-vous">Nature du rendez-vous </label>
@@ -116,7 +118,7 @@
                     var optionStr = '';
                     for (let i = 0; i < typeOfMeeting.length; i++) {
                         optionStr += `
-                        <option value="${typeOfMeeting[i].id}">${typeOfMeeting[i].text}</option>
+                        <option key=${i} value="${typeOfMeeting[i].text}">${typeOfMeeting[i].text}</option>
                         `
                     }
                     document.getElementById('Naturedurendezvous').innerHTML = optionStr;
@@ -129,7 +131,7 @@
                     var optionStr = '';
                     for (let i = 0; i < whoAreYou.length; i++) {
                         optionStr += `
-                        <option value="${whoAreYou[i].id}">${whoAreYou[i].text}</option>
+                        <option key=${i} value="${whoAreYou[i].text}">${whoAreYou[i].text}</option>
                         `
                     }
                     document.getElementById('Vousetes').innerHTML = optionStr;
